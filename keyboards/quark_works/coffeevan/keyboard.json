@@ -15,7 +15,12 @@
         "console": false,
         "extrakey": true,
         "mousekey": true,
-        "nkro": true
+        "nkro": true,
+        "rgblight": true
+    },
+    "ws2812": {
+        "pin": "GP16",
+        "driver": "vendor",
     },
     "rgblight": {
         "animations": {
@@ -34,9 +39,6 @@
     },
     "dynamic_keymap": {
         "layer_count": 6
-    },
-    "ws2812": {
-        "pin": "GP16"
     },
     "diode_direction": "COL2ROW",
     "matrix_pins": {
